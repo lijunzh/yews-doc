@@ -1,3 +1,9 @@
 [build]
   publish = "build"
-	command = "make html; mv build/html build/docs; echo '/		/docs' > _redirects"
+	command = "make html; mv build/html build/docs"
+
+[[redirects]]
+  from = "/"
+  to = "/docs"
+  status = 301
+  force = true
