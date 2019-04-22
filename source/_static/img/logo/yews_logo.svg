@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="76.5 154.5 1526.0043 417" width="1526.0043" height="417">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="77.5 152 1525.0043 422" width="1525.0043" height="422">
   <defs>
-    <font-face font-family="Roboto" font-size="355" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="400">
+    <font-face font-family="Roboto" font-size="360" units-per-em="1000" underline-position="-73.24219" underline-thickness="48.828125" slope="0" x-height="528.3203" cap-height="710.9375" ascent="927.7344" descent="-244.14062" font-weight="300">
       <font-face-src>
-        <font-face-name name="Roboto-Regular"/>
+        <font-face-name name="Roboto-Light"/>
       </font-face-src>
     </font-face>
   </defs>
   <metadata> Produced by OmniGraffle 7.10.2 
-    <dc:date>2019-04-12 20:17:55 +0000</dc:date>
+    <dc:date>2019-04-22 11:55:18 +0000</dc:date>
   </metadata>
   <g id="Canvas_1" stroke="none" stroke-opacity="1" stroke-dasharray="none" fill="none" fill-opacity="1">
     <title>Canvas 1</title>
     <g id="Canvas_1: Logo">
       <title>Logo</title>
       <g id="Line_17">
-        <path d="M 316.317 474.0271 C 316.317 474.0271 312.34804 353.66997 364.18096 289.68017 C 416.0139 225.69036 499.275 248.15816 499.275 248.15816" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+        <path d="M 274.89986 478.14396 C 274.89986 478.14396 270.93088 357.78682 322.7638 293.79702 C 374.59672 229.80722 457.85787 252.275 457.85787 252.275" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
       </g>
       <g id="Line_18">
-        <path d="M 499.275 248.15816 C 499.275 248.15816 501.4217 304.84778 467.76033 347.40496 C 434.09897 389.96214 380.45833 398.375 380.45833 398.375" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+        <path d="M 457.85787 252.275 C 457.85787 252.275 460.00453 308.96463 426.34317 351.5218 C 392.6818 394.079 339.04117 402.49185 339.04117 402.49185" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
       </g>
       <g id="Line_20">
-        <path d="M 269 398.375 C 269 398.375 210.59145 387.9828 175.25 345.16667 C 139.90855 302.3505 144.25301 247.24407 144.25301 247.24407" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+        <path d="M 227.58284 402.49185 C 227.58284 402.49185 169.17429 392.09967 133.83284 349.28352 C 98.49139 306.46737 102.83585 251.36092 102.83585 251.36092" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
       </g>
       <g id="Line_21">
-        <path d="M 144.25301 247.24407 C 144.25301 247.24407 193.38137 236.00782 234.625 254.625 C 275.86863 273.24218 289.83333 312.95833 289.83333 312.95833" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="30"/>
+        <path d="M 102.83585 251.36092 C 102.83585 251.36092 151.9642 240.12467 193.20784 258.74185 C 234.45147 277.35903 248.41617 317.0752 248.41617 317.0752" stroke="#2d572c" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/>
       </g>
     </g>
     <g id="Canvas_1: Text">
       <title>Text</title>
       <g id="Graphic_24">
-        <text transform="translate(562 154.5)" fill="#424242">
-          <tspan font-family="Roboto" font-size="355" font-weight="400" fill="#424242" x="0" y="329">Yews</tspan>
+        <text transform="translate(562 152)" fill="#424242">
+          <tspan font-family="Roboto" font-size="360" font-weight="300" fill="#424242" x="1.4611816" y="334">Yews</tspan>
         </text>
       </g>
     </g>
