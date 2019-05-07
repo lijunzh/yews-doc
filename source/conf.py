@@ -14,8 +14,8 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
-import sphinx_rtd_theme
 import yews
+import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -46,6 +46,18 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.githubpages',
 ]
+
+# Global variables available to all templates
+html_show_sourcelink = False
+html_context = {
+    # Enable the "Edit in GitHub link within the header of each page.
+    'display_github': True,
+    # Set the following variables to generate the resulting github URL for each page.
+    # Format Template: https://{{ github_host|default("github.com") }}/{{ github_user }}/{{ github_repo }}/blob/{{ github_version }}{{ conf_py_path }}{{ pagename }}{{ suffix }}
+    'github_user': 'lijunzh',
+    'github_repo': 'yews-docs',
+    'github_version': 'master/source/'
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

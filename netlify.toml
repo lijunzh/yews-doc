@@ -4,6 +4,6 @@
 
 [[redirects]]
   from = "/"
-  to = "/docs"
+  to = "https://github.com/lijunzh/yews"
   status = 301
   force = true
