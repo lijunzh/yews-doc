@@ -12,4 +12,4 @@ architectures:
 CPIC
 ----
 
-.. autofunction:: cpic64
+.. autofunction:: cpic_original
