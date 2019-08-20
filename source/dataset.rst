@@ -32,40 +32,45 @@ All the datasets have almost similar API. They all have two common arguments:
 ``transform`` and  ``target_transform`` to transform the input and target
 respectively.
 
+Standard Dataset
+------------------
+This is the default dataset used by ``yews`` that consists of two ``npy`` files
+under a directory. The first ``samples.npy`` contains of the input data array
+and the second ``targets.npy`` contains the output data array. Note that
+additional files can exists in the same directy, but they will be ignored by
+the ``Dataset`` class.
 
-BaseDataset
------------
+.. autoclass:: Dataset
+   :special-members:
+
+
+Basic Abstract Datasets
+-----------------------
+The ``BaseDataset`` class defines the common behavior of all ``dataset-like``
+objects. Additional ``DirDataset`` and ``FileDataset`` add more constraints on
+the specific form of the dataset. Note that ``Dataset`` class inherent from the
+``DirDataset`` class.
 
 .. autoclass:: BaseDataset
-   :members: build_dataset
+   :members: build_dataset, export_dataset
    :special-members:
 
-DatasetArray
-------------
-
-.. autoclass:: DatasetArray
+.. autoclass:: DirDataset
    :special-members:
 
-DatasetFolder
--------------
-
-.. autoclass:: DatasetFolder
+.. autoclass:: FileDataset
    :special-members:
 
-DatasetArrayFolder
-------------------
-
-.. autoclass:: DatasetArrayFolder
-   :special-members:
-
-Wenchuan
---------
+Packaged Datasets
+-----------------
+Commonly used datasets are packaged and listed in this section. These datasets
+can be downloaded directly.
 
 .. autoclass:: Wenchuan
    :special-members:
 
-Mariana (not published yet)
----------------------------
+.. autoclass:: SCSN
+   :special-members:
 
 .. autoclass:: Mariana
    :special-members:
