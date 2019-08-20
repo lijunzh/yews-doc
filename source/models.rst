@@ -12,4 +12,5 @@ architectures:
 CPIC
 ----
 
-.. autofunction:: cpic_original
+.. autofunction:: cpic_v1
+.. autofunction:: cpic_v2
